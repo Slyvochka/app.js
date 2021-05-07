@@ -33,7 +33,7 @@ function add() {
    const enteredNumber = getUserInput();
    const initialResult = currentResult;
    currentResult += enteredNumber;
-   createAndWriteOutput('+', initialResult, currentResult);
+   createAndWriteOutput('+', initialResult, enteredNumber);
    writeLog('ADD', initialResult, enteredNumber, currentResult);
  }
 
@@ -41,7 +41,7 @@ function substract () {
    const enteredNumber = getUserInput();
    const initialResult = currentResult;
    currentResult -= enteredNumber;
-   createAndWriteOutput('-', initialResult, currentResult);
+   createAndWriteOutput('-', initialResult, enteredNumber);
    writeLog('SUBSTRACT', initialResult, enteredNumber, currentResult);
 }
 
@@ -49,7 +49,7 @@ function multiply () {
    const enteredNumber = getUserInput();
    const initialResult = currentResult;
    currentResult *= enteredNumber;
-   createAndWriteOutput('*', initialResult, currentResult);
+   createAndWriteOutput('*', initialResult, enteredNumber);
    writeLog('MULTIPLY', initialResult, enteredNumber, currentResult);
 }
 
@@ -57,7 +57,7 @@ function divide () {
    const enteredNumber = getUserInput();
    const initialResult = currentResult;
    currentResult /= enteredNumber;
-   createAndWriteOutput('/', initialResult, currentResult);
+   createAndWriteOutput('/', initialResult, enteredNumber);
    writeLog('DIVIDE', initialResult, enteredNumber, currentResult);
 }
 
